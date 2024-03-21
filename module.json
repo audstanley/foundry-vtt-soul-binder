@@ -1,0 +1,48 @@
+{
+  "id": "soul-binder",
+  "title": "Soul Binder",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "url": "https://github.com/audstanley/soul-binder",
+  "packs": [
+    {
+      "name": "soul-binder-creatures",
+      "label": "Soul Binder Creatures",
+      "path": "packs/soul-binder-creatures",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "soul-binder-class",
+      "label": "Soul Binder Class",
+      "path": "packs/soul-binder-class",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "soul-binder-notes",
+      "label": "Soul Binder Notes",
+      "path": "packs/soul-binder-notes",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    }
+  ]
+}
